@@ -205,6 +205,7 @@ if ($action eq 'update-revs') {
         $lr_conf   .= "\t start 0\n";
         $lr_conf   .= "\t compress \n";
         $lr_conf   .= "\t copy \n";
+	$lr_conf   .= "\t su root vyattacfg \n";
         $lr_conf   .= "}\n";
         cm_write_file($lr_conf_file, $lr_conf);
         my $num_revs = cm_get_num_revs();
