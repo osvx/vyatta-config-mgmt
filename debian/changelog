@@ -1,3 +1,9 @@
+vyatta-config-mgmt (0.35+osvx1+projectx1) unstable; urgency=medium
+
+  * Fixed logrotate config file options for config archive rotation
+
+ -- Valentin Yakovenkov <yakovenkov@gmail.com>  Sun, 01 Jun 2014 20:59:08 +0400
+
 vyatta-config-mgmt (0.34+vyos1+helium1) unstable; urgency=low
 
   * New branch
